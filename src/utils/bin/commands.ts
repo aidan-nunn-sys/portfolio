@@ -71,27 +71,36 @@ export const linkedin = async (args: string[]): Promise<string> => {
 };
 
 // Search
-export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
+//export const google = async (args: string[]): Promise<string> => {
+//  window.open(`https://google.com/search?q=${args.join(' ')}`);
+//  return `Searching google for ${args.join(' ')}...`;
+//};
 
-export const duckduckgo = async (args: string[]): Promise<string> => {
-  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
-};
+//export const duckduckgo = async (args: string[]): Promise<string> => {
+//  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
+//  return `Searching duckduckgo for ${args.join(' ')}...`;
+//};
 
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
-};
+//export const bing = async (args: string[]): Promise<string> => {
+//  window.open(`https://bing.com/search?q=${args.join(' ')}`);
+//  return `Wow, really? You are using bing for ${args.join(' ')}?`;
+//};
 
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
-};
+//export const reddit = async (args: string[]): Promise<string> => {
+//  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
+//  return `Searching reddit for ${args.join(' ')}...`;
+//};
 
 // Typical linux commands
+export const logout = async (args: string[]): Promise<string> => {
+  return `shell: logout: not login shell: use \`exit\'`;
+}
+
+export const exit = async (args: string[]): Promise<string> => {
+  setTimeout(() => {open(`location`, '_self').close()}, 1000);
+  return `Connection to ${config.ps1_hostname} closed.`;
+}
+
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
@@ -141,17 +150,15 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+ / \--------------, 
+ \_,|             | 
+    |    Ai.dan   | 
+    |  ,------------
+    \_/___________/ 
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'readme' to display my github readme.
 `;
+// Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 };
