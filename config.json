@@ -16,24 +16,24 @@
     "paypal": "https://paypal.me/aidannunn1017",
     "patreon": "coming soon..."
   },
-  "Solarized": {
+  "Mocha": {
     "light": {
-      "background": "#FDF6E3",
-      "foreground": "#586E75",
-      "yellow": "#B58900",
-      "green": "#859900",
-      "gray": "#6C71C4",
-      "blue": "#268BD2",
-      "red": "#DC322F"
+      "background": "#D0C8C6",
+      "foreground": "#3B3228",
+      "yellow": "#F4BC87",
+      "green": "#BEB55B",
+      "gray": "#A89BB9",
+      "blue": "#8AB3B5",
+      "red": "#CB6077"
     },
     "dark": {
-      "background": "#002B36",
-      "foreground": "#93A1A1",
-      "yellow": "#B58900",
-      "green": "#859900",
-      "gray": "#6C71C4",
-      "blue": "#268BD2",
-      "red": "#DC322F"
-    },
+      "background": "#3B3228",
+      "foreground": "#D0C8C6",
+      "yellow": "#F4BC87",
+      "green": "#BEB55B",
+      "gray": "#A89BB9",
+      "blue": "#8AB3B5",
+      "red": "#CB6077"
+    }
   }
 }
