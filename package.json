@@ -1,11 +1,11 @@
 {
   "name": "liveterm",
   "version": "0.1.0",
-  "license": "MIT",
+  "license": "",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Aidan Nunn",
+    "url": "",
+    "email": "aidan.w.nunn@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
