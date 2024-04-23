@@ -1,15 +1,15 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Portfolio",
+  "name": "Aidan Nunn",
+  "ascii": "Daain",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "https://github.com/aidan-nunn-sys",
+    "linkedin": "https://www.linkedin.com/in/aidan-nunn-542aa82ab/"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
+  "email": "aidan.w.nunn@gmail.com",
+  "ps1_hostname": "daain",
+  "ps1_username": "guest",
   "repo": "https://github.com/Cveinnt/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
