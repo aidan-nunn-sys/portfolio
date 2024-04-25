@@ -21,7 +21,6 @@ const App = ({ Component, pageProps }) => {
           maximum-scale="1"
         />
       </Head>
-
       <div
         className="text-light-foreground dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base"
         onClick={onClickAnywhere}
@@ -30,8 +29,8 @@ const App = ({ Component, pageProps }) => {
           <Component {...pageProps} inputRef={inputRef} />
         </main>
       </div>
-      <Analytics />
       <SpeedInsights />
+      <Analytics />
     </>
   );
 };
