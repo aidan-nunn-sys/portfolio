@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/aidan-nunn-sys/aidan-nunn-sys/master/README.md",
+  "title": "Portfolio",
+  "name": "Aidan Nunn",
+  "ascii": "Aidan",
+  "social": {
+    "github": "aidan-nunn-sys",
+    "linkedin": "aidan-nunn-542aa82ab/"
+  },
+  "email": "aidan.w.nunn@gmail.com",
+  "ps1_hostname": "ai.dan",
+  "ps1_username": "guest",
+  "repo": "https://github.com/aidan-nunn-sys/portfolio",
+  "resume_url": "https://docs.google.com/document/d/1WLZYgFu_ji9-g1bXTW6uls8lm9cK7zmb/edit?usp=sharing&ouid=104691262188559537114&rtpof=true&sd=true",
+  "donate_urls": {
+    "paypal": "https://paypal.me/aidannunn1017",
+    "patreon": "coming soon..."
+  },
+  "colors": {
+      "light": {
+      "background": "#FFFFDB",
+      "foreground": "#282a36",
+      "yellow": "#ffb86c",
+      "green": "#50fa7b",
+      "gray": "#8B6BB9",
+      "blue": "#67AFC0",
+      "red": "#ff5555"
+    },
+    "dark": {
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "yellow": "#ffb86c",
+      "green": "#50fa7b",
+      "gray": "#bd93f9",
+      "blue": "#8be9fd",
+      "red": "#ff5555"
+    }
+  }
+}
