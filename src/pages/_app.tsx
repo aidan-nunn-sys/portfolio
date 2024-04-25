@@ -31,7 +31,7 @@ const App = ({ Component, pageProps }) => {
         </main>
       </div>
       <Analytics />
-      <SpeedInsights/>
+      <SpeedInsights />
     </>
   );
 };
